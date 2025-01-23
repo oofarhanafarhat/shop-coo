@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="lg:w-[1440px] mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-5  bg-[#F0F0F0] text-gray-700 justify-center items-center text-center">
           <div className="flex-col justify-center items-center ">
             <h3 className="font-extrabold lg:text-2xl text-[#383030]  ">SHOP.CO</h3>
-            <p className="mt-2 text-sm md:text-lg w-[200px] hidden lg:block  lg:ml-10 ">
+            <p className="mt-2 text-sm  w-[200px] hidden lg:block  lg:ml-10 ">
             We have clothes that suits your style and which you re proud to wear. From women to men.
             </p>
             <div className="flex space-x-4  pt-5 justify-center items-center mr-10">
