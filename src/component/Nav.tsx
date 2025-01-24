@@ -42,7 +42,7 @@ const Nav = () => {
         >
           <ul className="flex flex-col lg:flex-row gap-4 lg:gap-8 items-center text-center">
             <Link href={"/product"}>
-              <li className="mt-2 lg:mt-0">Shop</li>
+              <li className="mt-14 lg:mt-0">Shop</li>
             </Link>
             <Link href={"/onsale"}>
               <li className="mt-2 lg:mt-0">On Sale</li>
