@@ -48,33 +48,33 @@ const Product = () => {
           />
         </div>
         <div className="justify-center items-center">
-          <h1 className="text-xl md:text-2xl lg:text-4xl font-extrabold text-black mb-4">
+          <h1 className="text-xl md:text-2xl lg:text-4xl font-extrabold text-black mb-4 text-center">
             One Life Graphic T-shirt
           </h1>
-          <p className="text-yellow-500 text-sm">★★★★★</p>
-          <p className="text-lg md:text-xl text-gray-600 mt-2">
-            $260 <span className="line-through text-gray-400">$300</span>
+          <p className="text-yellow-500 text-sm text-center">★★★★★</p>
+          <p className="text-lg md:text-xl text-gray-600 mt-2 text-center">
+            $260 <span className="line-through text-gray-400 text-center">$300</span>
           </p>
-          <p className="text-gray-500 text-sm mt-4 w-full lg:w-[400px]">
+          <p className="text-gray-500 text-sm mt-4 w-full lg:w-[400px] text-center">
             Setting the bar as one of the loudest speakers in its class, the
             Kilburn is a compact, stout-hearted hero with a well-balanced audio
             which boasts a clear midrange and extended highs for a sound.
           </p>
           <div className="mt-6">
-            <h3 className="text-md font-semibold text-gray-500">Select Colors</h3>
-            <div className="flex flex-wrap gap-3 mt-2">
+            <h3 className="text-md font-semibold text-gray-500 text-center sm:text-center lg:text-start">Select Colors</h3>
+            <div className="flex flex-wrap gap-3 mt-2 text-center sm:text-center lg:text-start">
               {["#816DFA", "#000000", "#CDBA7B"].map((color, index) => (
                 <div
                   key={index}
-                  className="w-8 h-8 rounded-full border"
+                  className="w-8 h-8 rounded-full border text-center sm:text-center lg:text-start"
                   style={{ backgroundColor: color }}
                 ></div>
               ))}
             </div>
           </div>
           <div className="mt-6">
-            <h3 className="text-md font-semibold text-gray-500">Choose Size</h3>
-            <div className="flex flex-wrap gap-3 mt-2">
+            <h3 className="text-md font-semibold text-gray-500 text-center sm:text-center lg:text-start">Choose Size</h3>
+            <div className="flex flex-wrap gap-3 mt-2 ">
               {["Small", "Medium", "Large", "X-Large"].map((size, index) => (
                 <button
                   key={index}
