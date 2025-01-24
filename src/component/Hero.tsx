@@ -24,13 +24,13 @@ const Hero = () => {
           <div className="top-[431px] pt-56">
             <Image src={"/2star.png"} width={56} height={56} alt="Star" />
             </div>
-          <div className=" z-10">
+          <div className="w-[400px] h-[450px] px-10 sm:px-10 lg:px-0 z-10">
             <Image
               src={"/hero.jpeg"}
               width={400}
               height={450}
               alt="Hero Image"
-              className="rounded-lg"
+              className=" contain-fill rounded-lg"
             />
           </div>
           <div className=" right-10 w-[106px] h-[106px] top-[220px] pt-20">
