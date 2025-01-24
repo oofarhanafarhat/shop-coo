@@ -4,7 +4,7 @@ export default function Footer() {
     return (
       <footer className=" w-full  min-h-screen lg:w-[1440px] lg:h-[450px]  lg:justify-center items-center bg-[#F0F0F0]">
         <div>
-          <div className=" w-full lg:w-[1340] lg:h-[180px]  bg-[#000000] text-[#FFFFFF]  justify center text-center md:text-left md:flex lg:items-center lg:justify-between items-center rounded-3xl mx-10 sm:pb-6 ">
+          <div className=" w-full lg:w-[1340] lg:h-[180px]  bg-[#000000] text-[#FFFFFF]  py-10 sm:py-10  px-10 sm:px-10 justify center text-center md:text-left md:flex lg:items-center lg:justify-between items-center rounded-3xl lg:mx-10 sm:pb-6 ">
             <h1 className="text-2xl md:text-3xl lg:text-5xl   font-extrabold rounded-3xl pl-12">
               STAY UPTO DATE ABOUT OUR LATEST OFFERS
             </h1>
