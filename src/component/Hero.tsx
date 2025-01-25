@@ -5,7 +5,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="w-screen md:w-screen sm:mx-0 sm:px-0  lg:w-[1440px] h-screen bg-[#F2F0F1]  justify-center items-center">
-      <div className="grid lg:grid-cols-2 items-center gap-10 px-20 lg:w-[1440px]">
+      <div className="grid lg:grid-cols-2 items-center gap-10 px-20 lg:w-[1440px] mb-20 sm:mb-20 lg:mb-0">
         <div className="space-y-6">
           <h1 className="text-[#000000] text-[48px] lg:text-[64px] leading-[1.2] font-extrabold">
             FIND CLOTHES <br /> THAT MATCH YOUR STYLE
@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="top-[431px] pt-56">
             <Image src={"/2star.png"} width={56} height={56} alt="Star" />
             </div>
-          <div className="mb-20 sm:mb-20 lg:mb-0 z-10">
+          <div className="z-10">
             <Image
               src={"/hero.jpeg"}
               width={400}
