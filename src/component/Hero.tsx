@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="top-[431px] pt-56">
             <Image src={"/2star.png"} width={56} height={56} alt="Star" />
             </div>
-          <div className="z-10">
+          <div className="mb-20 sm:mb-20 lg:mb-0 z-10">
             <Image
               src={"/hero.jpeg"}
               width={400}
