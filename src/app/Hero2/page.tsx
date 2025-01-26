@@ -5,7 +5,7 @@ import Link from "next/link";
 const Hero2 = () => {
   return (
     <div className=" w-screen lg:w-[1440px] px-4 md:px-8 lg:px-16 xl:px-24 mt-10">
-      <div className="text-center">
+      <div className="text-center  mt-20 sm:mt-20 lg:mt-o">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-10">
           NEW ARRIVALS
         </h1>
